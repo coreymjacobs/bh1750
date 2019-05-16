@@ -15,7 +15,7 @@ Since BH1750 needs to talk directly to the I2C bus and requires access to /dev/i
 ```javascript
 //require module
 //
-const BH1750 = require('bh1750_lux');
+const BH1750 = require('./bh1750');
 
 //addr: is the I2C address of the sensor, defaults to 0x23
 //bus: I2C bus number using for communications, defaults to 1
