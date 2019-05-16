@@ -10,7 +10,7 @@ class BH1750 {
         this.device.type = (opts.hasOwnProperty('type')) ? opts.type : 'Light Sensor';
         this.device.bus = (opts.hasOwnProperty('bus')) ? opts.bus : 1; //default is 1
         this.device.addr = (opts.hasOwnProperty('addr')) ? opts.addr : 0x23; //default is 0x23
-        //read can be onetime of continuous
+        //read can be onetime or continuous
         this.device.read = (opts.hasOwnProperty('read')) ? opts.read : 'continuous'; //default is continuous
 
         //return value
