@@ -1,0 +1,29 @@
+{
+  "name": "bh1750_lux",
+  "version": "1.0.1",
+  "description": "Light sensor bh1750 with raspberry pi",
+  "main": "bh1750.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreymjacobs/bh1750.git"
+  },
+  "keywords": [
+    "bh1750",
+    "light",
+    "sensor",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Corey J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coreymjacobs/bh1750/issues"
+  },
+  "homepage": "https://github.com/coreymjacobs/bh1750#readme",
+  "dependencies": {
+    "i2c-bus": "^4.0.9"
+  }
+}
